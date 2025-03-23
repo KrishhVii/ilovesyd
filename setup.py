@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="ilovesyd",
-    version="0.1.0",
+    version="1.4.0",
     author="KrishVi",
     author_email="krish@ilovesyd.xyz",
     description="A Python wrapper for ilovesyd.xyz API",
