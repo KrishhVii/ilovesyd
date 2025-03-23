@@ -69,7 +69,8 @@ class IloveSydAPI:
         Tests if the API is reachable.
         """
         try:
-            return self._request("GET", "ss")
+            r =  self._request("GET", "ss")
+            return r.status_code()
         except Exception as e:
             return {"error": str(e)}
 
